@@ -19,7 +19,7 @@ function createRandomPromise(index) {
             const totalTime = ((Date.now() - startTime) / 1000).toFixed(3);
 
             // Remove the loading row
-            document.getElementById("loadingRow").remove();
+            document.getElementById("loading").remove();
 
             const output = document.getElementById("output");
 
